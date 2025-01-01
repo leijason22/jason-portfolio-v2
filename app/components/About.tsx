@@ -8,7 +8,7 @@ export default function About() {
       <div className="text-lg whitespace-pre-wrap">
         {`> Jason.currentLocation`}
         <br />
-        <span className="text-[#E3CE84]">{'"Fort Lee, NJ"'}</span>
+        <span className="text-[#E3CE84]">&quot;Fort Lee, NJ&quot;</span>
         <br />
         <br />
         {`> Jason.contactInfo`}
@@ -19,7 +19,7 @@ export default function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          "22jasonlei@gmail.com"
+          &quot;22jasonlei@gmail.com&quot;
         </a>
         ,{" "}
         <a
@@ -28,7 +28,7 @@ export default function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          "LinkedIn"
+          &quot;LinkedIn&quot;
         </a>
         ,{" "}
         <a
@@ -37,7 +37,7 @@ export default function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          "GitHub"
+          &quot;GitHub&quot;
         </a>
         ]
         <br />
@@ -50,30 +50,28 @@ export default function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          "jasonlei.pdf"
+          &quot;jasonlei.pdf&quot;
         </a>
         <br />
         <br />
         {`> Jason.interests`}
         <br />
         <span className="text-[#E3CE84]">
-          ["web design", "smiskis", "eating", "long walks", "lifting heavy
-          weights & placing them back down gently"]
+          [&quot;web design&quot;, &quot;smiskis&quot;, &quot;eating&quot;, &quot;long walks&quot;, &quot;lifting heavy weights &amp; placing them back down gently&quot;]
         </span>
         <br />
         <br />
         {`> Jason.education`}
         <br />
         <span className="text-[#E3CE84]">
-          "B.Sc. Computer Science @ Rutgers University - New Brunswick"
+          &quot;B.Sc. Computer Science @ Rutgers University - New Brunswick&quot;
         </span>
         <br />
         <br />
         {`> Jason.skills`}
         <br />
         <span className="text-[#E3CE84]">
-          ["Python", "Java", "C", "JavaScript", "React", "HTML", "CSS", "SQL -
-          Postgres & MySQL", "Git"]
+          [&quot;Python&quot;, &quot;Java&quot;, &quot;C&quot;, &quot;JavaScript&quot;, &quot;React&quot;, &quot;HTML&quot;, &quot;CSS&quot;, &quot;SQL - Postgres &amp; MySQL&quot;, &quot;Git&quot;]
         </span>
         <br />
         <br />
