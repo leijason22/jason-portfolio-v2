@@ -45,7 +45,7 @@ export default function About() {
         />
       </h2>
 
-      {/* Typing Animation for Paragraphs */}
+      {/* Typing Animation for Paragraphs
       <div className="max-w-3xl text-lg text-gray-600 leading-relaxed mt-8 space-y-4">
         <TypeAnimation
           sequence={[
@@ -54,7 +54,7 @@ export default function About() {
             3000, 
           ]}
           wrapper="p"
-          cursor={false} g
+          cursor={false}
           repeat={0}
         />
         <TypeAnimation
@@ -136,7 +136,31 @@ export default function About() {
           cursor={false}
           repeat={0}
         />
-      </div>
+      </div> */}
+
+{/* Typing Animation for Paragraphs */}
+<div className="max-w-3xl text-lg text-gray-600 leading-relaxed mt-8 space-y-4">
+  <TypeAnimation
+    sequence={[
+      5000, // Delay before typing starts
+      `I'm a dynamic software engineer and recent graduate with a BS in Computer Science at Rutgers University. 
+      I entered college as a pharmacy major but soon fell in love with computer systems, algorithms, modern algebra, and all of the intriguing ways they converge. 
+      My current interests lie in data science, full-stack web development, and software engineering. 
+      Here's my Resume. 
+      I am also planning to continue my education by pursuing a master's degree in computer science! 
+      Before graduating this fall, I took: 
+      • Introduction to Data Science (CS439) 
+      • Principles of Programming Languages (CS314) 
+      • Design and Analysis of Computer Algorithms (CS344)`,
+      3000, // Pause after typing
+    ]}
+    wrapper="p"
+    cursor={false}
+    repeat={0}
+  />
+</div>
+
+
     </div>
   );
 }
