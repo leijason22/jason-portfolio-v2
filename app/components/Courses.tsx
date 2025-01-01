@@ -7,23 +7,23 @@ export default function Courses() {
         {`> Jason.courses`}
         <br />
         <span className="text-[#E3CE84]">
-          [ "Data Structures",
-          <br></br>
-          "Computer Architecture",
-          <br></br>
-          "Systems Programming",
-          <br></br>
-          "Design and Analysis of Computer Algorithms",
-          <br></br>
-          "Software Methodology",
-          <br></br>
-          "Introduction to Data Science",
-          <br></br>
-          "Principles of Information and Data Management",
-          <br></br>
-          "Discrete Structures",
-          <br></br>
-          "Principles of Programming Languages" ]
+          [ &quot;Data Structures&quot;,
+          <br />
+          &quot;Computer Architecture&quot;,
+          <br />
+          &quot;Systems Programming&quot;,
+          <br />
+          &quot;Design and Analysis of Computer Algorithms&quot;,
+          <br />
+          &quot;Software Methodology&quot;,
+          <br />
+          &quot;Introduction to Data Science&quot;,
+          <br />
+          &quot;Principles of Information and Data Management&quot;,
+          <br />
+          &quot;Discrete Structures&quot;,
+          <br />
+          &quot;Principles of Programming Languages&quot; ]
         </span>
       </div>
     </div>
