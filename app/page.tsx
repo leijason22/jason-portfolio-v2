@@ -20,7 +20,7 @@ const projects = [
     description:
       "Travel smarter by saving the places you want to go. This project was an assignment given for an interview. It includes a map with pins and a list of locations with interactivity between the two.",
     skills: ["HTML5", "CSS3", "JavaScript", "React", "Redux"],
-    sourceCode: "#",
+    sourceCode: "https://github.com/leijason22/NicotineTrends2",
     image: "/images/project1.png",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     description:
       "Built a responsive portfolio website using React and Tailwind CSS to showcase my projects, skills, and contact details.",
     skills: ["React", "Tailwind CSS", "TypeScript"],
-    sourceCode: "#",
+    sourceCode: "https://github.com/BENJIVN/BuyMeSite",
     image: "/images/project2.png",
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     description:
       "Built a responsive portfolio website using React and Tailwind CSS to showcase my projects, skills, and contact details.",
     skills: ["React", "Tailwind CSS", "TypeScript"],
-    sourceCode: "#",
+    sourceCode: "https://github.com/leijason22/CS214-MyShell",
     image: "/images/project2.png",
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     description:
       "Built a responsive portfolio website using React and Tailwind CSS to showcase my projects, skills, and contact details.",
     skills: ["React", "Tailwind CSS", "TypeScript"],
-    sourceCode: "#",
+    sourceCode: "https://github.com/leijason22/CS214-Spellchecker",
     image: "/images/project2.png",
   },
   {
@@ -60,7 +60,7 @@ const projects = [
     description:
       "Built a responsive portfolio website using React and Tailwind CSS to showcase my projects, skills, and contact details.",
     skills: ["React", "Tailwind CSS", "TypeScript"],
-    sourceCode: "#",
+    sourceCode: "https://github.com/leijason22/RU-Pizzeria",
     image: "/images/project2.png",
   },
   {
@@ -68,7 +68,7 @@ const projects = [
     description:
       "Built a responsive portfolio website using React and Tailwind CSS to showcase my projects, skills, and contact details.",
     skills: ["React", "Tailwind CSS", "TypeScript"],
-    sourceCode: "#",
+    sourceCode: "https://github.com/leijason22/jason-portfolio",
     image: "/images/project2.png",
   },
   {
@@ -76,7 +76,7 @@ const projects = [
     description:
       "Built a responsive portfolio website using React and Tailwind CSS to showcase my projects, skills, and contact details.",
     skills: ["React", "Tailwind CSS", "TypeScript"],
-    sourceCode: "#",
+    sourceCode: "https://github.com/leijason22/Sillybus",
     image: "/images/project2.png",
   },
 ];
