@@ -9,10 +9,10 @@ export default function Experience() {
             <div className="bg-[#5B5D7A] p-6 rounded-lg shadow-md">
               <h2 className="text-xl font-bold mb-2">October 2024 - Present</h2>
               <h3 className="text-lg font-semibold">
-                Software Developer Fellows
+                Headline
               </h3>
               <p className="text-gray-300 mt-2">
-                8-week fellowship working with React.js and TypeScript.
+                filler filler filler
               </p>
             </div>
           </div>
@@ -21,7 +21,7 @@ export default function Experience() {
             <div className="absolute w-6 h-6 bg-yellow-400 border-2 border-yellow-600 rounded-full -left-3"></div>
             <div className="bg-[#5B5D7A] p-6 rounded-lg shadow-md">
               <h2 className="text-xl font-bold mb-2">July 2024 - Present</h2>
-              <h3 className="text-lg font-semibold">Lead Web Developer</h3>
+              <h3 className="text-lg font-semibold"> Web Developer</h3>
               <p className="text-gray-300 mt-2">BLAH BLAH BLAH</p>
             </div>
           </div>
