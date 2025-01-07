@@ -3,7 +3,7 @@ import Experience from "./components/Experience";
 import About from "./components/About";
 import ProjectCard from "./components/ProjectCard";
 import InitialHome from "./components/InitialHome";
-import Courses from "./components/Courses";
+// import Courses from "./components/Courses";
 import Contact from "./components/Contact";
 
 const projects = [
@@ -61,7 +61,7 @@ const projects = [
       "This Android app was a comprehensive project for pizza ordering, built using Android Studio, Java, and XML. It allowed users to select specialty pizzas or customize their own with up to 7 toppings. I implemented design patterns like Singleton for efficient global data sharing and Factory Method for flexible object creation. This project taught me Android development, GUI design, and backend logic using Java, significantly enhancing my problem-solving and application development skills.",
     skills: ["Android Studio", "Java", "XML", "Design Patterns"],
     sourceCode: "https://github.com/leijason22/RU-Pizzeria",
-    image: "/images/project2.png",
+    image: "/images/rupizzeria.png",
   },
   {
     title: "First Portfolio Website",
@@ -69,15 +69,15 @@ const projects = [
       "This was my first-ever portfolio website and one of my earliest projects, marking my introduction to web development. It was my first experience working with HTML, CSS, and JavaScript, as well as React. Building this project taught me the fundamentals of frontend development, responsive design, and React concepts, laying a strong foundation for future projects.",
     skills: ["HTML", "CSS", "JavaScript", "React"],
     sourceCode: "https://github.com/leijason22/jason-portfolio",
-    image: "/images/project2.png",
+    image: "/images/firstportfolio.png",
   },
   {
     title: "Sillybus",
     description:
-      "This project was my first hackathon experience and one of the first projects I ever created. Sillybus automates creating Google Classrooms from syllabus files (PDF, DOCX, TXT) to make a teacher’s life easier. Built using Python, Flask, and Google Cloud, it extracts data from uploaded syllabi, processes it, and formats it for seamless classroom setup. This experience introduced me to Flask, Python integration, and API interaction, sparking my love for programming and problem-solving.",
+      "This project was my first hackathon experience and one of the first projects I ever worked on. Sillybus automates creating Google Classrooms from syllabus files (PDF, DOCX, TXT) to make a teacher’s life easier. Built using Python, Flask, and Google Cloud, it extracts data from uploaded syllabi, processes it, and formats it for seamless classroom setup. This experience introduced me to Flask, Python integration, and API interaction, sparking my love for programming and problem-solving.",
     skills: ["Python", "Flask", "Google Cloud", "File Parsing"],
     sourceCode: "https://github.com/leijason22/Sillybus",
-    image: "/images/project2.png",
+    image: "/images/sillybus.png",
   },
 ];
 
@@ -116,22 +116,22 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Courses Sections */}
+        {/* Courses Sections
         <section id="courses" className="py-16">
           <h2 className="text-3xl font-bold mb-4 text-center text-[#747FE0]">
             Coursework
           </h2>
           <Courses />
-        </section>
+        </section> */}
 
-        <section id="skills" className="py-16">
+        {/* <section id="skills" className="py-16">
           <h2 className="text-3xl font-bold mb-4 text-center text-[#747FE0]">
             Skills
           </h2>
           <p>This is the Skills section of the portfolio.</p>
-        </section>
+        </section> */}
 
-        <section id="contact" className="py-16">
+        <section id="contact" className="py-4">
           <Contact />
           <footer className="mt-12 text-center text-sm text-[#4A4A6A]">
             © 2025 Jason Lei

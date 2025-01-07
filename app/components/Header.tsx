@@ -23,12 +23,12 @@ export default function Header() {
             <Link href="#projects" className="hover:text-[#747FE0]">
               Projects
             </Link>
-            <Link href="#courses" className="hover:text-[#747FE0]">
+            {/* <Link href="#courses" className="hover:text-[#747FE0]">
               Courses
-            </Link>
-            <Link href="#skills" className="hover:text-[#747FE0]">
+            </Link> */}
+            {/* <Link href="#skills" className="hover:text-[#747FE0]">
               Skills
-            </Link>
+            </Link> */}
             <Link href="#contact" className="hover:text-[#747FE0]">
               Contact
             </Link>

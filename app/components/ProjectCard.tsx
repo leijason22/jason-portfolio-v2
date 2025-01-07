@@ -1,9 +1,11 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 type ProjectProps = {
   project: {
     title: string;
     description: string;
     skills: string[];
-    //   liveDemo: string;
     sourceCode: string;
     image: string;
   };
@@ -32,21 +34,14 @@ export default function ProjectCard({ project }: ProjectProps) {
         ))}
       </div>
       <div className="flex justify-between">
-        {/* <a
-            href={project.liveDemo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            Live Demo
-          </a> */}
         <a
           href={project.sourceCode}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-500 hover:underline"
+          className="flex items-center space-x-2 bg-white border-2 border-[#747FE0] text-[#747FE0] hover:bg-[#747FE0] hover:text-white font-medium py-2 px-4 rounded-lg shadow-sm transition-all duration-300"
         >
-          View Source
+          <FontAwesomeIcon icon={faGithub} className="text-xl" />
+          <span>View Source</span>
         </a>
       </div>
     </div>
