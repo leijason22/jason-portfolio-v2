@@ -13,7 +13,7 @@ type ProjectProps = {
 
 export default function ProjectCard({ project }: ProjectProps) {
   return (
-    <div className="bg-white rounded-lg shadow-md p-6">
+    <div className="group bg-white rounded-lg shadow-md p-6 transform transition-transform duration-300 hover:scale-105">
       <img
         src={project.image}
         alt={project.title}

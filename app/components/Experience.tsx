@@ -12,7 +12,7 @@ const timelineData: TimelineItem[] = [
     date: "May - August 2024",
   },
   {
-    title: "CS Personal Projects",
+    title: "CS Personal Projects & Skills",
     description:
       "This summer didn't go as planned—no internship this time around. Looking back, I wasn't as prepared as I hoped and mostly spent a lot of time trying to focus on graduating on time and catching up with classes. I regret not taking my time and really finding my passion for CS. However, during this summer, I was able to find a spark of enjoyment as I build beginner projects such as to-do lists and weather apps. Over the course of many failures and successes, I was able to develop work flow skills and became proficient in back-end and front-end languages.",
     date: "May - August 2023",
